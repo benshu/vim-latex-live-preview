@@ -20,6 +20,7 @@ add the following lines to the .gitconfig file
     [difftool.latex]
       cmd = latexdiff "$LOCAL" "$REMOTE"
       
+copy the 'Makefile_latex_live_preview' file to the current working directory where the .tex file is being edited, and rename it to 'Makefile'.
 
 
 ## Running
