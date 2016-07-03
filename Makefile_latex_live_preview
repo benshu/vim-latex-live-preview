@@ -1,0 +1,2 @@
+watchdiff:
+	fswatch -0 -e "diff*|.*git.*" --event Updated --format "%p"  ./ | xargs -0 -n 1 -I {} ./auto_latex.sh {}
